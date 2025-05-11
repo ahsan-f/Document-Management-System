@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="11130" dy="4915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="9704" dy="4172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1436,37 +1436,44 @@
           <mxGeometry y="90" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4GYkyn5l5LE7Zp3SKFpM-212" value="DASHBOARD" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="9305" y="5762.5" width="480" height="287.5" as="geometry" />
+          <mxGeometry x="9305" y="5762.5" width="480" height="260" as="geometry" />
         </mxCell>
         <mxCell id="4GYkyn5l5LE7Zp3SKFpM-213" value="Project" style="swimlane;startSize=20;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-212">
-          <mxGeometry y="20" width="120" height="267.5" as="geometry" />
+          <mxGeometry y="20" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-228" value="Project 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-213">
+          <mxGeometry x="27.5" y="34.5" width="60" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4GYkyn5l5LE7Zp3SKFpM-214" value="Distributor Action" style="swimlane;startSize=20;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-212">
-          <mxGeometry x="120" y="20" width="120" height="267.5" as="geometry" />
+          <mxGeometry x="120" y="20" width="120" height="240" as="geometry" />
         </mxCell>
         <mxCell id="4GYkyn5l5LE7Zp3SKFpM-215" value="Expert Action" style="swimlane;startSize=20;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-212">
-          <mxGeometry x="240" y="20" width="120" height="267.5" as="geometry">
+          <mxGeometry x="240" y="20" width="120" height="240" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="280" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-230" value="Pending" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-215">
+          <mxGeometry x="30" y="34.5" width="60" height="26" as="geometry" />
         </mxCell>
         <mxCell id="4GYkyn5l5LE7Zp3SKFpM-217" value="Feedback" style="swimlane;startSize=20;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-212">
-          <mxGeometry x="360" y="20" width="120" height="267.5" as="geometry">
+          <mxGeometry x="360" y="20" width="120" height="240" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="280" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-219" value="NOTIFICATIONS" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="8595" y="5763" width="480" height="290" as="geometry" />
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-224" value="&lt;h2 style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Notifications&lt;/font&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="8590" y="5770" width="480" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-220" value="Project 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-219">
-          <mxGeometry y="20" width="480" height="120" as="geometry" />
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-225" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;You have uploaded a document regarding Project 1 on 12th May 2025 at 16:00:00&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-224">
+          <mxGeometry y="30" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-221" value="Project 2" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-219">
-          <mxGeometry y="140" width="480" height="120" as="geometry" />
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-226" value="&lt;ul&gt;&lt;li&gt;Distributor has fowarded the document to QA Expert on 13th May at 11:00:00&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-224">
+          <mxGeometry y="60" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-223" value="Project 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="4GYkyn5l5LE7Zp3SKFpM-219">
-          <mxGeometry y="260" width="480" height="30" as="geometry">
-            <mxRectangle y="260" width="480" height="120" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-227" value="&lt;ul&gt;&lt;li&gt;QA Expert has kept the document on hold with a message &quot;Checking the files&quot; on 13th May at 13:00:00&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="4GYkyn5l5LE7Zp3SKFpM-224">
+          <mxGeometry y="90" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4GYkyn5l5LE7Zp3SKFpM-229" value="Forwarded" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="9450" y="5817" width="70" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
