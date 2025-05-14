@@ -8,22 +8,29 @@
 </head>
 <body>
     <nav>
+        <a href="/">
+            <img src="./static/img/software.png" alt="User Profile" class="app-pic">
+        </a>
         <a href="/" class="button">Home</a>
         <a href="/projects" class="button">Projects</a>
         <a href="/notifications" class="button">Notifications</a>
         <a href="/dashboard" class="button">Dashboard</a>
+        <a href="/profile">
+            <img src="./static/img/boy.png" alt="User Profile" class="profile-pic">
+        </a>
     </nav>
     <header>
         <h1>Welcome to the Document Management System</h1>
     </header>
     <main>
-        <p>Easily manage, track, and route your project-related documents. Upload your files securely, 
-            and our system ensures they reach the right experts for review and action. Streamline your 
+        <p>Easily manage, track, and route your project-related documents. Upload your files securely,<br/> 
+            and our system ensures they reach the right experts for review and action. Streamline your<br/>  
             workflows with real-time visibility and seamless SharePoint integration.</p>
     </main>
-    <button class="upload-file">
+    <button class="upload-file" onclick="document.getElementById('fileInput').click();">
         Upload file
     </button>
+    <input type="file" id="fileInput" style="display: none;">
     <footer>
         <p>&copy; 2023 Document Management System</p>
     </footer>
