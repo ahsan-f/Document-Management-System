@@ -17,6 +17,21 @@ templates = Jinja2Templates(directory="templates")
 async def home(request: Request):
     return templates.TemplateResponse("home.html", {"request": request})
 
+# Projects Page
+@app.get('/projects', response_class=HTMLResponse)
+async def projects(request: Request):
+    return templates.TemplateResponse("projects.html", {"request": request})
+
+# Notifications Page
+@app.get('/notifications', response_class=HTMLResponse)
+async def notifications(request: Request):
+    return templates.TemplateResponse("notifications.html", {"request": request})
+
+# Dashboard Page
+@app.get('/dashboard', response_class=HTMLResponse)
+async def dashboard(request: Request):
+    return templates.TemplateResponse("dashboard.html", {"request": request})
+
 # Running the app
 if __name__ == '__main__':
     import uvicorn
