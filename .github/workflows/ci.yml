@@ -33,6 +33,11 @@ jobs:
           pip install -r dms-backend/requirements.txt
           # Install gunicorn for production-like environment check
           pip install gunicorn
+          # Check runner OS and install Windows-only dependencies if applicable
+           if [[ "${{ runner.os }}" == "Windows" ]]; then
+             pip install -r dms-backend/requirements-windows.txt
+          fi
+            shell: bash # Ensure bash is used for the conditional check
 
       - name: 🧹 Lint code with Black (or Flake8/Pylint)
         # Assuming you'd have a linter like Black in your requirements.txt
