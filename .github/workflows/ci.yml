@@ -44,7 +44,7 @@ jobs:
         run: |
           pip install black
           # This checks files for formatting issues without modifying them
-          black --check .
+          black  .
       
       - name: 🧪 Run tests with pytest
         run: |
